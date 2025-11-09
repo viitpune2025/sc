@@ -1,0 +1,70 @@
+=== Ant Colony Optimization (ACS) ===
+
+=== Iteration 1 ===
+Ant 1 tour: A -> B -> D -> C -> A Length = 6
+Ant 2 tour: A -> B -> D -> C -> A Length = 6
+Ant 3 tour: A -> C -> B -> D -> A Length = 7
+
+Pheromone Matrix:
+0.00	0.92	0.92	0.90	
+0.92	0.00	0.90	0.92	
+0.92	0.90	0.00	0.92	
+0.90	0.92	0.92	0.00	
+Current Best Tour: A -> B -> D -> C -> A Length = 6
+BestLength=6
+
+=== Iteration 2 ===
+Ant 1 tour: A -> D -> C -> B -> A Length = 5
+Ant 2 tour: A -> C -> B -> D -> A Length = 7
+Ant 3 tour: A -> B -> C -> D -> A Length = 5
+
+Pheromone Matrix:
+0.00	0.86	0.83	0.85	
+0.86	0.00	0.85	0.83	
+0.83	0.85	0.00	0.86	
+0.85	0.83	0.86	0.00	
+Current Best Tour: A -> D -> C -> B -> A Length = 5
+BestLength=5
+
+=== Iteration 3 ===
+Ant 1 tour: A -> B -> C -> D -> A Length = 5
+Ant 2 tour: A -> B -> C -> D -> A Length = 5
+Ant 3 tour: A -> C -> B -> D -> A Length = 7
+
+Pheromone Matrix:
+0.00	0.82	0.76	0.82	
+0.82	0.00	0.82	0.76	
+0.76	0.82	0.00	0.82	
+0.82	0.76	0.82	0.00	
+Current Best Tour: A -> D -> C -> B -> A Length = 5
+BestLength=5
+
+=== Iteration 4 ===
+Ant 1 tour: A -> B -> C -> D -> A Length = 5
+Ant 2 tour: A -> B -> C -> D -> A Length = 5
+Ant 3 tour: A -> B -> C -> D -> A Length = 5
+
+Pheromone Matrix:
+0.00	0.80	0.69	0.80	
+0.80	0.00	0.80	0.69	
+0.69	0.80	0.00	0.80	
+0.80	0.69	0.80	0.00	
+Current Best Tour: A -> D -> C -> B -> A Length = 5
+BestLength=5
+
+=== Iteration 5 ===
+Ant 1 tour: A -> B -> D -> C -> A Length = 6
+Ant 2 tour: A -> B -> C -> D -> A Length = 5
+Ant 3 tour: A -> B -> D -> C -> A Length = 6
+
+Pheromone Matrix:
+0.00	0.79	0.67	0.76	
+0.79	0.00	0.76	0.67	
+0.67	0.76	0.00	0.79	
+0.76	0.67	0.79	0.00	
+Current Best Tour: A -> D -> C -> B -> A Length = 5
+BestLength=5
+
+=== Final Best Tour ===
+A -> D -> C -> B -> A
+Length = 5
